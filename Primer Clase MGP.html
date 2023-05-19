@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario Inscripcion Curso MGP Programa</title>
+</head>
+<body>
+    <h1>Formulario Inscripcion </h1>
+    <h2>Curso Programacion MGP </h2>
+
+    <section>
+        <form > 
+        <input type="text" name="nombre" placeholder="Nombre" required> <br>
+        <input type="text" name="apellido" placeholder="Apellido" required> <br>
+        <input type="number" name="edad" placeholder="Edad"> <br>
+       Fecha de Nacimiento <input type="date" name="fecha de nacimiento" min="1900-12-31" max="2023-12-31" placeholder="Fecha de nacimiento" > <br> 
+        <input type="text" name="Pais" placeholder="Pais"> <br>
+        <input type="tel" name="telefono" placeholder="Telefono" required> <br>
+        <input type="email" name="miemail" placeholder="Email" required> <br>
+        
+        <input id="mujer" type="radio" value="M" name="genero" >
+        <label for="mujer">Mujer</label>
+        <input id="hombre" type="radio" value="H" name="genero">
+        <label for="hombre">Hombre</label>
+        <input id="Otro" type="radio" value="O" name="genero">
+        <label for="otro">Otro</label> <br>
+
+        Trabaja <input type="radio" value="Si"> SI 
+        <input type="radio" value="No"> NO
+            <button type="submit"> Enviar </button>
+            <button type="reset"> Limpiar </button>
+</form>
+    </section>
+    
+ 
+
+</body>
+</html>

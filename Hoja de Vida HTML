@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <div>
+                <h1> Paola Elizabeth Romero </h1>
+                Secretaria Juridica- Administrativa
+            </div>
+            <div> <img src="/Imagenes/Fotoperfil.jpg" alt="Fotoperfil" height="50px" width="50px"></div>
+            <div>
+                paolaeromero@gmail.com
+                2235196036
+            </div>
+        </div> <br>
+    </header>
+
+    <br>
+
+    <main>
+        <section>
+            <aside>
+                <h2>Información adicional </h2>
+                <blockquote>
+                    Género Mujer
+                    Fecha de nacimiento 30/5/1986
+                    Lugar de nacimiento Mar del Plata
+                    Nacionalidad Argentina
+                    Estado civil Viviendo en pareja </blockquote>
+            </aside>
+        </section> <br>
+        <section>
+            <article>
+
+                <h2>Acerca de Mi: </h2>
+                <blockquote>
+                    Trabajo desde el 2006 desarrollando
+                    tareas administrativas y jurídicas en el
+                    estudio Jurídico de la Dra. Clavijo.
+                    Tengo Buen manejo de paquete de
+                    Office. En el año 2022 realice curso
+                    básico de Programador web,
+                    conocimiento en HTML, CSS y Java
+                    Scrip.-
+                    Manejo de plataforma SOS. Habilidades
+                    de comunicación con el cliente y
+                    proveedores, ya que trabaje de manera
+                    paralela en empresa de Herrería y
+                    Automatizaciones, gestionando la
+                    administración de la misma.-
+                    Uso de plataforma de AFIP- ANSES-IPS,
+                    SOS (programa de gestión de compras y
+                    ventas).- </blockquote>
+            </article> <br>
+
+            <article>
+                <style>
+                    {
+                        font-size: 20px
+                    }
+                </style>
+                <h2> Experiencia laboral</h2>
+                <blockquote>
+                    <p> Secertaria Juridica
+                        Estudio Juridico Dra. Clavijo
+                        jun. 2006 - abr. 2023
+                        Mar del Plata- Bs.As
+                        Excelentes habilidades de organización: Encargada de mantener un registro y seguimiento de
+                        expedientes, documentos y fechas de audiencias.
+                        Gran habilidad para comunicarme claramente y de manera efectiva, de manera verbal y escrita
+                        como por escrito.
+                        Habilidad para trabajar bajo presión, cumpliendo con los plazos establecidos.
+                        Manejo de herramientas tecnológicas: Habilidad para trabajar con software y herramientas
+                        digitales relacionadas con la gestión de documentos y expedientes.
+                        Administrativa
+                        Nueva Imagen de Dario Clavijo
+                        jun. 2006 - abr. 2023
+                        Mar del Plata
+                        Conocimiento en administración: conocimientos en gestión y administración de recursos,
+                        presupuestos y programación de mantenimiento, entre otros.
+                        Programación y seguimiento de citas, así como también del registro y seguimiento de órdenes
+                        de trabajo.
+                        Comunicación con clientes y proveedores, entre otros, tanto verbalmente como por escrito.
+                        Conocimientos en informática y habilidades para trabajar con programas de gestión. </p>
+                </blockquote>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

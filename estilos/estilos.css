@@ -1,0 +1,265 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans';
+    
+}
+
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color:#ff5b0f;
+
+
+
+}
+
+header h1{
+    float: left;
+    padding: 20px;
+    margin: 70px;
+}
+
+header img{
+    max-width: 200px;
+    float: left;
+    /*border: 2px double rgb(78, 75, 69) ;*/
+    border-radius: 10px;
+    width: auto;
+}
+
+header nav{
+    font-family:'Noto Sans';
+   }
+
+.Headermenu ul{
+    list-style: none;
+    
+
+}
+
+.Headermenu li{
+    float: left;
+    margin-top: 80px;
+}
+
+.Headermenu li a{
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: rgb(46, 46, 45) ;
+    font-weight: bold;
+    font-size: 20px;
+
+    }
+
+
+.Headermenu li a:hover{
+    color: rgb(214, 211, 208);
+        }  
+
+main{
+    width: 70%;
+    background-color: rgba(59, 58, 56, 0.719);
+    clear: both;
+    float: left;
+    overflow: scroll;
+    height: 100vh;  
+
+}
+
+
+section{
+    padding: 20px;
+    
+}
+section .card-product {
+    max-width: 30%;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    background-color: #FF8921;
+    padding: 20px;
+    margin: 1%;
+    float: left;
+    /*height: auto;*/
+
+}
+
+section .card-product img{
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px ; 
+    border-bottom: 2px solid rgba(59, 58, 56, 0.719);
+
+
+}
+
+section .card-product .description{
+    text-align: center;
+    line-height: 200%;
+    font-family: 'PT Sans' ;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section .card-product .precio{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bold; 
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+
+}
+
+section .card-product-footer{
+    width: 100%;
+    /*background-color:#FF6200;*/
+    height: 40px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    
+}
+
+section .card-product-footer button{
+    width: 50%;
+    float: left;
+    border-radius:20px 20px 20px 20px ;
+    background-color:  rgba(240, 193, 107, 0.856) ;
+    cursor: pointer;
+}
+
+aside{
+    width: 30%;
+    background-color: #665d55;
+    padding: 20px;
+    float: left;
+    height: 100vh;
+    
+}
+
+aside section nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+aside section nav li{
+    border-bottom: 1px solid rgb(168, 120, 31);
+    margin-bottom: 10px;
+}
+
+aside section nav li :hover {
+    border-bottom: 1px solid rgb(168, 120, 31);
+    color: beige;
+
+}
+
+aside section nav a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(168, 120, 31);
+    color: white;
+
+}
+
+aside .form{
+    width: 100%;
+    border: 1px solid rgba(235, 156, 11, 0.856);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+aside .form h2{
+    padding-bottom: 10px;
+}
+
+aside .form input{
+    width: 100%;
+    height: 40px;
+    font-size:16px;
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: #e09533 ;
+}
+
+aside .form textarea{
+    width: 100%;
+    height: 100% ;
+    font-size:16px;
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: #e09533;
+
+}
+
+aside .form button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: grey;
+    color: rgb(226, 159, 34);
+    border-radius: 10px;
+
+}
+
+footer{
+    padding: 60px;
+    background-color:#ff5b0f;
+    color:rgb(14, 13, 13);
+    clear: both;
+}
+
+footer div{
+    width: 50%;
+    float: left;
+}
+
+footer .datos{
+    float: left;
+}
+
+footer .redes{
+    float: right;
+    text-align: right;
+}
+
+footer .redes a{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    padding-right: 10px;
+}
+ 
+/*de aca para abajo es esto es para los botones con iconos de las redes que quiero agregar en el footer*/
+.flotante{
+    position: fixed;
+    right: 100px;
+    bottom: 10px;
+}
+
+.flotante button{
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(176, 236, 176);
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    }
+
+    .flotante button i{
+        color: white;
+        font-size: 40px;
+    }
